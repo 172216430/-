@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul, dl, ol, ul {
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 1226px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container ul {
+    box-sizing: border-box;
+    width: 296px;
+    height: 460px;
+    position: relative;
+}
+
+.page {
+    width: 20px;
+    height: 48px;
+    position: absolute;
+    text-align: center;
+    line-height: 48px;
+    background: #b0b0b0;
+    color: white;
+    display: none;
+}
+
+.left {
+    left: 0;
+    top: 186px;
+}
+
+.right {
+    right: 0;
+    top: 186px;
+}
+
+.button {
+    width: 144px;
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button .bt-div {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #b0b0b0;
+}
+
+.button .bt-div:nth-of-type(1) {
+    background: white;
+    border: 1px solid rgb(255, 172, 19);
+}
+
+.container ul li {
+    width: 296px;
+    height: 460px;
+}
+
+.container .ul1 li {
+    border-top: 1px solid rgb(255, 172, 19);
+}
+
+ul h4 {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffac13;
+    font-size: 21px;
+    font-weight: inherit;
+}
+
+ul h3 {
+    font-size: 22px;
+    font-weight: inherit;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    color: #333;
+}
+
+ul h5 {
+    font-size: 11px;
+    font-weight: inherit;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2em;
+    color: #b0b0b0;
+}
+
+ul h6 {
+    font-size: 13px;
+    width: 70%;
+    margin: 0 auto;
+    color: #ffac13;
+    font-weight: inherit;
+    text-align: center;
+    line-height: 2em;
+}
+
+ul p{
+    font-size: 11px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 172, 19);
+}
+
+ul img {
+    width: 216px;
+    display: block;
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+}
+
+.bt-div2 {
+    color: rgb(255, 172, 19);
+    width: 118px;
+    height: 28px;
+    font-size: 11px;
+    border: 1px solid rgb(255, 172, 19);
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.bt-div2:hover {
+    color: white;
+    background: rgb(255, 172, 19);
+}
+
+.container .ul2 li {
+    border-top: 1px solid rgb(131, 196, 78);
+}
+
+.ul2 h4 , .ul2 h6 , .ul2 p{
+    color: rgb(131, 196, 78)
+}
+.ul2 .bt-div2{
+    color: rgb(131, 196, 78);
+    border: 1px solid rgb(131, 196, 78);
+}
+.ul2 .bt-div2:hover{
+    color: white;
+    background: rgb(131, 196, 78);
+}
+
+.container .ul3 li {
+    border-top: 1px solid rgb(229, 57, 53);
+}
+.ul3 h4 , .ul3 h6 , .ul3 p{
+    color: rgb(229, 57, 53);
+}
+.ul3 .bt-div2{
+    color: rgb(229, 57, 53);
+    border: 1px solid rgb(229, 57, 53);
+}
+.ul3 .bt-div2:hover{
+    color: white;
+    background: rgb(229, 57, 53);
+}
+.container .ul4 li {
+    border-top: 1px solid rgb(33, 150, 243);
+}
+.ul4 h4 , .ul4 h6 , .ul4 p{
+    color: rgb(33, 150, 243);
+}
+.ul4 .bt-div2{
+    color: rgb(33, 150, 243);
+    border: 1px solid rgb(33, 150, 243);
+}
+.ul4 .bt-div2:hover{
+    color: white;
+    background:rgb(33, 150, 243);
+}
